@@ -108,25 +108,3 @@
   background: var(--color-deep-teal);
   color: white;
 }
-
-@keyframes fade-up-30 {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-[data-aos="fade-up-30"] {
-  opacity: 0;
-  transform: translateY(30px);
-  transition-property: transform 400ms ease, opacity 400ms ease;
-}
-
-[data-aos="fade-up-30"].aos-animate {
-  opacity: 1;
-  transform: translateY(0);
-}
