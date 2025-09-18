@@ -10,6 +10,7 @@
 .skills p {
   line-height: 30px;
   color: rgb(255, 255, 255);
+  font-size: 22px;
 }
 
 .skills p:hover {
@@ -31,7 +32,7 @@
   width: 100%;
   margin: 20px auto;
   height: fit-content;
-  padding: 50px 50px 30px 50px;
+  padding: 30px 50px 30px 50px;
 }
 .skill-content .container {
   width: 90%;

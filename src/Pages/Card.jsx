@@ -7,8 +7,14 @@ export default function Card({ item }) {
     AOS.init({ duration: 2000 });
   }, []);
 
+  // delay1={item.id === "2" ? "500" : ""}
+  //               delay2={item.id === "3" ? "1000" : ""}
   return (
-    <div data-aos="fade-up" className="card">
+    <div
+      data-aos="fade-up"
+      data-aos-delay={item.id === "2" ? "300" : item.id === "3" ? "600" : ""}
+      className="card"
+    >
       <div className="card-content">
         <img src={item.image} alt={item.name} />
         <h3>{item.name}</h3>

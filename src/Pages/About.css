@@ -1,5 +1,5 @@
 .about-me .container {
-  padding: 20px;
+  padding: 0 20px 0 20px;
 }
 .about-me {
   border: dashed 2px rgba(255, 255, 255, 0.664);
@@ -24,7 +24,7 @@
 }
 
 .about-me p {
-  font-size: 18px;
+  font-size: 20px;
   color: rgb(234, 234, 234);
 }
 

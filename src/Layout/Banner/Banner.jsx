@@ -30,11 +30,11 @@ export default function Banner() {
           <p data-aos="fade-right" data-aos-delay="300">
             Embrace challenges, grow, <br /> and reach my goals
           </p>
-          <Link to="/skills">
-            <button data-aos="fade-up-30" className="btn">
-              View my skills
-            </button>
-          </Link>
+          <div data-aos="fade-up">
+            <Link to="/skills">
+              <button className="btn">View my skills</button>
+            </Link>
+          </div>
         </div>
         <div data-aos="fade-left" className="img">
           <img src={workImage} alt="student" />
