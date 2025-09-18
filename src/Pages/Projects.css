@@ -1,0 +1,117 @@
+.card {
+  position: relative;
+  padding: 15px;
+  border: solid 2px rgba(255, 255, 255, 0.548);
+  border-radius: 25px;
+  height: 68vh;
+  width: 80%;
+  /* box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); */
+  background: var(--color-cyan);
+  color: var(--color-navy);
+  margin: 0 auto;
+  transition: all 0.3s ease;
+  z-index: 1;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.card:hover {
+  background-color: var(--color-aqua);
+  box-shadow: 0 0 5px var(--color-aqua), 0 0 10px var(--color-aqua),
+    0 0 15px var(--color-aqua), 0 0 30px var(--color-aqua);
+}
+.card-content {
+  height: 90%;
+}
+
+.card-content h3 {
+  height: 10%;
+  text-align: center;
+}
+.card-content p {
+  height: 30%;
+  text-align: justify;
+}
+.wrap-slide {
+  width: 100%;
+  position: relative;
+  z-index: 10;
+  padding: 30px;
+  height: 13%;
+}
+
+.card img {
+  width: 100%;
+  height: 45%;
+  border-radius: 20px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: rgba(255, 255, 255, 0.767);
+  z-index: 1 !important;
+}
+.swiper-button-nex:hover {
+  color: black;
+}
+
+.swiper-pagination-bullet {
+  background: var(--color-mint);
+  opacity: 0.6;
+  width: 12px;
+  height: 12px;
+  transition: all 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--color-teal);
+  opacity: 1;
+  box-shadow: 0 0 5px var(--color-cyan), 0 0 15px var(--color-cyan),
+    0 0 30px var(--color-cyan);
+  transform: scale(1.3);
+  border-radius: 50%;
+}
+
+.wrap-btn-project {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+  gap: 10px;
+  /* height: 30%; */
+  /* background-color: blanchedalmond; */
+}
+
+.btn-project {
+  background: linear-gradient(
+    to left,
+    var(--color-orange),
+    var(--color-purple)
+  );
+  border: none;
+  color: var(--color-deep-teal);
+  height: 40px;
+  font-size: 15px;
+  font-family: "Kode Mono", monospace;
+  border-radius: 10px;
+  font-weight: 700;
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+.btn-project a {
+  text-decoration: none;
+  color: var(--color-deep-teal);
+}
+
+.btn-project:hover a {
+  color: white;
+}
+.btn-project:hover {
+  background: var(--color-deep-teal);
+  color: white;
+}
+
+.btn-project {
+  width: 125px;
+}

@@ -1,0 +1,40 @@
+.about-me .container {
+  padding: 20px;
+}
+.about-me {
+  border: dashed 2px rgba(255, 255, 255, 0.664);
+  border-radius: 40px;
+  width: 90%;
+  margin: 0 auto;
+}
+.about-me * {
+  margin-bottom: 13px;
+}
+
+.about-me h1 {
+  color: var(--color-navy);
+  font-size: 55px;
+  text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 60px #0ff;
+}
+
+.about-me h4 {
+  color: var(--color-mint);
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.about-me p {
+  font-size: 18px;
+  color: rgb(234, 234, 234);
+}
+
+.about-me p:hover {
+  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 15px #0ff, 0 0 30px #0ff;
+  color: var(--color-deep-teal);
+  font-weight: bold;
+  cursor: pointer;
+}
+.about-me h4:hover {
+  text-shadow: 0 0 5px rgb(19, 236, 171), 0 0 10px rgb(19, 236, 171),
+    0 0 10px rgb(19, 236, 171), 0 0 150px rgb(19, 236, 171);
+}

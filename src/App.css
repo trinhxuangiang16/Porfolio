@@ -1,0 +1,15 @@
+#root {
+  font-family: "Kode Mono", monospace;
+  max-width: 1280px;
+  margin: 0 auto;
+  top: 0;
+  /* padding: 2rem; */
+}
+
+body {
+  background: linear-gradient(
+    to left,
+    var(--color-deep-teal),
+    var(--color-aqua)
+  );
+}

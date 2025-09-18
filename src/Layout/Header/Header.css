@@ -1,0 +1,137 @@
+@import "../../../variable.css";
+@import "../Banner/Banner.css";
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+}
+
+header a {
+  text-decoration: none;
+}
+.logo-mail {
+  color: var(--color-deep-teal);
+  font-size: 35px;
+  font-weight: 900;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
+}
+.logo-mail .letter:hover {
+  background: linear-gradient(
+    to left,
+    var(--color-orange),
+    var(--color-purple)
+  );
+  color: var(--color-mint);
+}
+.menu {
+  display: flex;
+  gap: 50px;
+  font-weight: 500;
+}
+
+.menu .download {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.navbar {
+  color: var(--color-mint);
+  font-size: 22px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.navbar ul {
+  background: var(--color-teal);
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  border-radius: 8px;
+}
+
+.navbar li {
+  list-style: none;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: fit-content;
+  padding: 0 15px;
+  position: relative;
+}
+
+.navbar li::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  transition: all 0.4s;
+}
+.navbar li a {
+  color: var(--color-mint);
+  text-decoration: none;
+}
+
+.navbar li:hover a {
+  color: var(--color-navy);
+}
+
+.navbar li:hover {
+  background-color: var(--color-mint);
+  border-radius: 8px;
+}
+
+.active {
+  color: var(--color-navy) !important;
+}
+.navbar li:hover::after {
+  width: 100%;
+}
+
+.download {
+  background: linear-gradient(
+    to left,
+    var(--color-orange),
+    var(--color-purple)
+  );
+  border: none;
+  height: 40px;
+  font-size: 15px;
+  font-family: "Kode Mono", monospace;
+  border-radius: 10px;
+  font-weight: 700;
+  padding: 0 10px;
+}
+
+.download a {
+  text-decoration: none;
+  color: var(--color-deep-teal);
+}
+
+.download:hover a {
+  color: white;
+}
+.download:hover {
+  background: var(--color-navy);
+}
+
+.wrap-btn-download {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

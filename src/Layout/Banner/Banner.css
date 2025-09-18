@@ -1,0 +1,132 @@
+@import "../../../variable.css";
+
+.banner {
+  padding: 80px 30px 0 50px;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.banner .container {
+  display: flex;
+  justify-content: space-between;
+}
+.banner-content * {
+  margin-bottom: 20px;
+}
+
+.hover-text .letter:hover {
+  background: linear-gradient(
+    to left,
+    var(--color-orange),
+    var(--color-purple)
+  );
+}
+.hover-text .letter:hover .letter {
+  height: 40pxt;
+}
+.banner-content h1 {
+  color: white;
+  font-size: 70px;
+  font-weight: 900;
+}
+
+.banner-content h1:hover {
+  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 15px #0ff, 0 0 30px #0ff;
+}
+
+.banner-content h3 {
+  font-size: 40px;
+  color: var(--color-deep-teal);
+  font-weight: bolds;
+}
+
+.banner-content h3 .letter:hover {
+  background: linear-gradient(
+    to left,
+    var(--color-orange),
+    var(--color-purple)
+  );
+  color: var(--color-mint);
+}
+.banner-content p {
+  color: white;
+  font-size: 25px;
+}
+.banner-content p:hover {
+  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 15px #0ff, 0 0 30px #0ff;
+}
+.banner .container .img {
+  width: 50%;
+  margin-top: -50px;
+}
+
+.img img {
+  width: 90%;
+
+  animation: animaImg 3s infinite;
+}
+
+@keyframes animaImg {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(6deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.btn {
+  background: linear-gradient(
+    to left,
+    var(--color-orange),
+    var(--color-purple)
+  );
+  border: none;
+  color: var(--color-deep-teal);
+  height: 40px;
+  font-size: 15px;
+  font-family: "Kode Mono", monospace;
+  border-radius: 10px;
+  font-weight: 700;
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+.btn a {
+  text-decoration: none;
+  color: var(--color-deep-teal);
+}
+
+.btn:hover a {
+  color: white;
+}
+.btn:hover {
+  background: var(--color-deep-teal);
+  color: white;
+}
+
+@keyframes fade-up-30 {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+[data-aos="fade-up-30"] {
+  opacity: 0;
+  transform: translateY(30px);
+  transition-property: transform 400ms ease, opacity 400ms ease;
+}
+
+[data-aos="fade-up-30"].aos-animate {
+  opacity: 1;
+  transform: translateY(0);
+}
