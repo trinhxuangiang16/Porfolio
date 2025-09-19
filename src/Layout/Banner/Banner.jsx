@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-
+import workImg from "/public/image/work.png";
 import "./Banner.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -35,7 +35,7 @@ export default function Banner() {
           </button>
         </div>
         <div data-aos="fade-left" className="img">
-          <img src="../../../public/image/work.png" alt="student" />
+          <img src={workImg} alt="student" />
         </div>
       </div>
     </div>
