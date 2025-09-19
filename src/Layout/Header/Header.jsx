@@ -73,7 +73,7 @@ export default function Header() {
           <button className="download">
             <a
               download="TrinhXuanGiang_CV.pdf"
-              href="../../../public/CV-INTERN-TRỊNH_XUÂN_GIANG.pdf"
+              href="/CV-INTERN-TRỊNH_XUÂN_GIANG.pdf"
             >
               Download CV
             </a>

@@ -1,5 +1,6 @@
 .about-me .container {
-  padding: 0 20px 0 20px;
+  padding: 20px 40px 20px 40px;
+  text-align: justify;
 }
 .about-me {
   border: dashed 2px rgba(255, 255, 255, 0.664);
