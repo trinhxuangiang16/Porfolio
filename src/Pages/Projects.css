@@ -3,8 +3,8 @@
   padding: 15px;
   border: solid 2px rgba(255, 255, 255, 0.548);
   border-radius: 25px;
-  height: 50vh;
-  width: 80%;
+  height: 470px;
+  width: 88%;
   background: var(--color-cyan);
   color: var(--color-navy);
   margin: 0 auto;
@@ -17,24 +17,34 @@
   box-shadow: 0 0 5px var(--color-aqua), 0 0 10px var(--color-aqua),
     0 0 15px var(--color-aqua), 0 0 30px var(--color-aqua);
 }
+.card:hover * {
+  text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 15px #00ffff,
+    0 0 30px#00ffff;
+}
 .card-content {
   height: 90%;
 }
 
 .card-content h3 {
-  height: 10%;
+  padding: auto 0;
+  height: 9%;
   text-align: center;
+  margin-top: 5px;
 }
 .card-content p {
   height: 30%;
   text-align: justify;
+  font-size: 15px;
+}
+.card-content h4 {
+  text-align: center;
 }
 .wrap-slide {
   width: 100%;
   position: relative;
   z-index: 10;
   padding: 30px;
-  height: 60vh;
+  height: 560px;
 }
 
 .card img {
@@ -74,10 +84,10 @@
   position: relative;
   display: flex;
   flex-direction: row;
-  width: 250px;
-  gap: 10px;
-  /* height: 30%; */
-  /* background-color: blanchedalmond; */
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+  padding: 0 auto;
 }
 
 .btn-project {
