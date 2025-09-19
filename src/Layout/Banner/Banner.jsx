@@ -35,7 +35,7 @@ export default function Banner() {
           </button>
         </div>
         <div data-aos="fade-left" className="img">
-          <img src="/public/image/work.png" alt="student" />
+          <img src="/Porfolio/public/image/work.png" alt="student" />
         </div>
       </div>
     </div>
