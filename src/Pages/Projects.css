@@ -3,7 +3,7 @@
   padding: 15px;
   border: solid 2px rgba(255, 255, 255, 0.548);
   border-radius: 25px;
-  height: 69vh;
+  height: 50vh;
   width: 80%;
   background: var(--color-cyan);
   color: var(--color-navy);
@@ -34,7 +34,7 @@
   position: relative;
   z-index: 10;
   padding: 30px;
-  height: 82vh;
+  height: 60vh;
 }
 
 .card img {
