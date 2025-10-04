@@ -71,10 +71,7 @@ export default function Header() {
         </div>
         <div data-aos="zoom-in" className="wrap-btn-download">
           <button className="download">
-            <a
-              download="TrinhXuanGiang_CV.pdf"
-              href="/CV-INTERN-TRỊNH_XUÂN_GIANG.pdf"
-            >
+            <a download="TrinhXuanGiang_CV.pdf" href="/CV_TRINH-XUAN GIANG.pdf">
               Download CV
             </a>
           </button>
